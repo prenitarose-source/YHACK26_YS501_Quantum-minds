@@ -1,16 +1,46 @@
-# React + Vite
+# Enterprise Statutory Compliance Roadmap & Tracker
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A unified regulatory intelligence and compliance lifecycle tracking platform engineered for Indian commercial and industrial enterprises. The system automates clearance identification, statutory fee estimation, SLA milestone tracking, and credential verification across key state and central directorates.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🏛️ Covered Regulatory Bodies & Compliances
 
-## React Compiler
+* **DISH (Directorate of Industrial Safety & Health):**
+  * Factory License registration and safety audit workflows
+  * Machinery layout approvals and Major Accident Hazard (MAH) emergency protocols
+* **PCB (State & Central Pollution Control Boards):**
+  * Consent to Establish (CTE) & Consent to Operate (CTO) categorization (Green, Orange, Red)
+  * Effluent Treatment Plant (ETP) validation and Plastic Waste Management EPR filings
+* **FSSAI (Food Safety and Standards Authority of India):**
+  * State and Central Food Manufacturing Licenses via FoSCoS
+  * Food Safety Management Systems (FSMS) and water laboratory quality testing standards (IS 10500)
+* **MSME & Central Frameworks:**
+  * Udyam Enterprise validation for statutory subsidies and fast-track processing
+  * GSTIN registration and State Labour Commercial Establishments Act filings
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the Oxlint configuration
+## 🚀 Key Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+* **Dynamic Regulatory Roadmap Generator:** Evaluates enterprise risk profiles, SLA processing days, and statutory government application fees tailored by business sector, plant investment scale, and employee headcount.
+* **DigiLocker & National SSO Gateway:** Zero-Knowledge verification workflow simulating DigiLocker / MeriPehchaan OTP tokens to authenticate enterprise signatories without persisting sensitive national ID numbers.
+* **Live Clearinghouse Sync Simulation:** Emulates real-time API polling against State Single Window Portals (TN-SWS / NSWS) with auto-generated Application Reference Numbers (ARNs).
+* **Multi-Stage Lifecycle Management:** Conditional file intake pipelines for business expansion blueprints and annual renewal audits.
+* **Interactive Visual Milestones:** Real-time progress monitoring and full-screen milestone celebrations upon achieving 100% compliance clearance.
+
+---
+
+## 🛠️ Tech Stack
+
+* **Frontend Framework:** React 18, Vite
+* **UI & Interactions:** Framer Motion (animated drawers & modal transitions)
+* **Visual Effects:** Canvas-Confetti
+* **Mobile Runtime:** Capacitor (Android ready)
+* **Styling:** Modular Responsive CSS3 (Dark Mode / Enterprise Slate theme)
+
+---
+
+## 💻 Local Development Setup
+
+1. Clone the repository:
