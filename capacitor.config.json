@@ -1,0 +1,5 @@
+{
+  "appId": "com.compliance.app",
+  "appName": "compliance-platform",
+  "webDir": "dist"
+}
